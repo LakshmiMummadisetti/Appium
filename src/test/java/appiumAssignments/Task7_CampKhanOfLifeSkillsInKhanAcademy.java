@@ -35,6 +35,7 @@ public class Task7_CampKhanOfLifeSkillsInKhanAcademy {
 		driver = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), capability);
 	}
 
+	
 	@Test
 	public void clickCampKhan() throws InterruptedException {
 		driver.findElement(MobileBy.AccessibilityId("Search tab")).click();
