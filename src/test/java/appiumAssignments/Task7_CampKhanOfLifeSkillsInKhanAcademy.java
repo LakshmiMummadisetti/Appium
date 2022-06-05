@@ -36,7 +36,7 @@ public class Task7_CampKhanOfLifeSkillsInKhanAcademy {
 	}
 
 	@Test
-	public void clickClass12Biology() throws InterruptedException {
+	public void clickCampKhan() throws InterruptedException {
 		driver.findElement(MobileBy.AccessibilityId("Search tab")).click();
 		Thread.sleep(3000);
 		driver.findElement(MobileBy.AndroidUIAutomator("UiSelector().text(\"Life skills\")")).click();
